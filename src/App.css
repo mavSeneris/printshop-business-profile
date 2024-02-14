@@ -134,12 +134,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px
 }
 
 .contact-icons > a {
   width: 50%;
   display: flex;
   justify-content: center;
+  transition: border-radius 0.3s, background-color 0.3s; /* Add transition for smooth animation */
 }
 
 .contact-icons > a > img {
