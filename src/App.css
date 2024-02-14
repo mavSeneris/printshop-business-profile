@@ -125,6 +125,11 @@ section {
 
 }
 
+.contacts > p {
+  color:rgb(73, 73, 73);
+  font-size: 1.2rem;
+}
+
 .contact-icons {
   display: flex;
   justify-content: center;
