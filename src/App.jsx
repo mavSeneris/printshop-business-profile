@@ -5,6 +5,12 @@ import user from "./assets/images/user.png";
 import list from "./assets/images/list.png";
 import stamp from "./assets/images/stamp.png";
 import stars from "./assets/images/stars.png";
+import fb from "./assets/images/fb.png";
+import whatsApp from "./assets/images/whatsapp.png";
+import mail from "./assets/images/mail.png";
+import shopee from "./assets/images/shopee.png";
+
+
 
 function App() {
   const [logoVisible, setLogoVisible] = useState(false);
@@ -63,10 +69,10 @@ function App() {
       <section className="contacts">
         <p className="contact-text">Contact us to learn more about our porducts and sercives</p>
         <div className="contact-icons">
-          <a href="#"><img/></a>
-          <a href="#"><img/></a>
-          <a href="#"><img/></a>
-          <a href="#"><img/></a>
+          <a href="#"><img src={shopee}/></a>
+          <a href="#"><img src={fb}/></a>
+          <a href="#"><img src={mail}/></a>
+          <a href="#"><img src={whatsApp}/></a>
         </div>
         <p className="contact-text"># 25 Boston Street, San Dionisio, Paranaque City</p>
       </section>

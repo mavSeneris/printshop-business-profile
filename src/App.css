@@ -114,3 +114,34 @@ section {
 .icon {
   width: 70%;
 }
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons > a {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icons > a > img {
+  width: 70px;
+}
+
+.contact-icons > a:hover {
+  border-radius: 50px;
+  background-color: rgb(154, 201, 213);
+}
