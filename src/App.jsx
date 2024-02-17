@@ -28,8 +28,8 @@ function App() {
           className={logoVisible ? "logo fade-in" : "logo"}
         />
       </header>
-      <section>
-        <h2 className="title">Your partner in any products!</h2>
+      <section className="info-text">
+        <h2 className="title">Your needs, our priority!</h2>
         <p className="sub-title">
           We are an Ecommerce provider that provides assistance, and sells
           products at cheap costs while providing quality service to fulfill
@@ -40,38 +40,34 @@ function App() {
         <div>
           <img className="icon" src={user} />
           <p >
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,{" "}
+          We provide comprehensive assistance, including technical support, customer service, consultancy, and training, tailored to your company's needs.
           </p>
         </div>
         <div>
           <img className="icon" src={list} />
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,{" "}
+          Our outsourcing services streamline processes like inventory management and order processing to boost efficiency and reduce costs.
           </p>
         </div>
         <div>
           <img className="icon" src={stamp} />
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,{" "}
+          Our outsourcing services streamline processes like inventory management and order processing to boost efficiency and reduce costs.
           </p>
         </div>
         <div>
           <img className="icon" src={stars} />
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,{" "}
+          Our commitment to quality service ensures we meet and exceed your requirements, fostering long-term partnerships based on trust and reliability.
           </p>
         </div>
       </section>
       <section className="contacts">
         <p className="contact-text">Contact us to learn more about our porducts and sercives</p>
         <div className="contact-icons">
-          <a href="#"><img src={shopee}/></a>
-          <a href="#"><img src={fb}/></a>
-          <a href="#"><img src={mail}/></a>
+          <a href="https://shopee.ph/1.twovarietyshop"><img src={shopee}/></a>
+          <a href="https://www.facebook.com/profile.php?id=61554743732118"><img src={fb}/></a>
+          <a href="mailto:1twovarietyshop@gmail.com"><img src={mail}/></a>
           <a href="#"><img src={whatsApp}/></a>
         </div>
         <p className="contact-text"># 25 Boston Street, San Dionisio, Paranaque City</p>

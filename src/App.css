@@ -49,13 +49,16 @@ main {
   align-items: center;
   background: linear-gradient(#64d3e6, #f6f6f6);
   flex-direction: column;
+  padding: 20px
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  /* height: 200px; */
+  /* margin-bottom: 10px; */
+
 }
 
 section {
@@ -67,36 +70,45 @@ section {
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
+  min-width: 375px;
   opacity: 0;
   transition: opacity 1s ease;
+  /* height: 400px; */
 }
 
 .logo.fade-in {
   opacity: 1;
 }
 
+.info-text{
+  padding: 50px 0
+}
+
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .sub-title {
-  width: 80%;
+  /* width: 80%; */
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
+  /* padding-bottom: 20px; */
+  word-spacing: 1.7px;
 }
 
+
+
 .icons {
-  width: 90%;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+
 }
+
+
 
 .icons > div {
   width: 200px;
@@ -105,36 +117,25 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin: 25px; */
 }
 
 .icons > div > p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .icon {
-  width: 70%;
+  width: 50%;
 }
 
-.contacts {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 
-}
-
-.contacts > p {
-  color:rgb(73, 73, 73);
-  font-size: 1.2rem;
-}
 
 .contact-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px
+  gap: 10px;
 }
 
 .contact-icons > a {
@@ -152,3 +153,50 @@ section {
   border-radius: 50px;
   background-color: rgb(154, 201, 213);
 }
+
+/* Small Screens */
+@media (min-width: 550px) {
+  .logo{
+    width: 100%;
+  }
+
+  .icons{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  }
+  
+  .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .contacts > p {
+    color: rgb(73, 73, 73);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* Medium Screens */
+
+  @media(min-width: 970px){
+    .info-text{
+      width: 65%;
+      padding: 50px 0
+    }
+    .title{
+      font-size: 4rem;
+    }
+    .sub-title{
+      font-size: 1.5rem;
+    }
+    .icons{
+      grid-template-columns: repeat(4,1fr);
+      margin-top: 40px;
+      gap: 100px
+    }
+  }
