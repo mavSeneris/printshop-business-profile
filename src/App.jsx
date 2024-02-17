@@ -68,7 +68,7 @@ function App() {
           <a href="https://shopee.ph/1.twovarietyshop"><img src={shopee}/></a>
           <a href="https://www.facebook.com/profile.php?id=61554743732118"><img src={fb}/></a>
           <a href="mailto:1twovarietyshop@gmail.com"><img src={mail}/></a>
-          <a href="#"><img src={whatsApp}/></a>
+          <a href="tel:+639910081757"><img src={whatsApp}/></a>
         </div>
         <p className="contact-text"># 25 Boston Street, San Dionisio, Paranaque City</p>
       </section>
