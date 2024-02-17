@@ -103,9 +103,9 @@ section {
 
 
 .icons {
+  width: 80%;
   border-bottom: 1px solid black;
   padding-bottom: 50px;
-
 }
 
 
@@ -117,11 +117,12 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   /* margin: 25px; */
 }
 
 .icons > div > p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
